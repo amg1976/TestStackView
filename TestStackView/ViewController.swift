@@ -12,15 +12,15 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ZenInputController.shared.setup(withSourceViewController: self)
+        ZDSInputManager.shared.setup(withSourceViewController: self)
     }
     
 }
 
-extension ViewController : ZenInputControllerDelegate {
+extension ViewController : ZDSInputControllerDelegate {
 
     func didSelectMenuControllerItem(menuItem: UIMenuItem) {
-        ZenInputMainViewController.show()
+        ZDSInputMainViewController.show()
     }
     
 }

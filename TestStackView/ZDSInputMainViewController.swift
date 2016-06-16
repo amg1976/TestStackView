@@ -1,5 +1,5 @@
 //
-//  ZenInputMainViewController.swift
+//  ZDSInputMainViewController.swift
 //  TestStackView
 //
 //  Created by Adriano Goncalves on 16/06/2016.
@@ -51,9 +51,9 @@ extension UIViewController {
     
 }
 
-class ZenInputController: NSObject {
+class ZDSInputManager: NSObject {
     
-    static let shared = ZenInputController()
+    static let shared = ZDSInputManager()
     
     private var currentFields: [UITextField]?
 
@@ -75,7 +75,7 @@ class ZenInputController: NSObject {
     
     func setup(withSourceViewController viewController: UIViewController) {
         
-        let menuItem = UIMenuItem(title: "ZenInput...", action: #selector(ZenInputControllerDelegate.didSelectMenuControllerItem(_:)))
+        let menuItem = UIMenuItem(title: "ZenInput...", action: #selector(ZDSInputControllerDelegate.didSelectMenuControllerItem(_:)))
         
         var menuItems = [menuItem]
         if let existingItems = UIMenuController.sharedMenuController().menuItems {
@@ -96,13 +96,13 @@ class ZenInputController: NSObject {
 }
 
 @objc
-protocol ZenInputControllerDelegate {
+protocol ZDSInputControllerDelegate {
     
     func didSelectMenuControllerItem(menuItem: UIMenuItem)
     
 }
 
-class ZenInputMainViewController: UITabBarController {
+class ZDSInputMainViewController: UITabBarController {
 
     @IBAction func didTouchCancel(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
@@ -111,10 +111,10 @@ class ZenInputMainViewController: UITabBarController {
     static func show() {
         
         if let mainViewController = UIStoryboard(name: "ZenInput", bundle: nil).instantiateInitialViewController() as? UINavigationController,
-            viewController = ZenInputController.shared.currentViewController,
+            viewController = ZDSInputManager.shared.currentViewController,
             textField = viewController.getActiveTextField() {
             
-                ZenInputController.shared.sourceTextField = textField
+                ZDSInputManager.shared.sourceTextField = textField
                 viewController.presentViewController(mainViewController, animated: true, completion: nil)
                 
         }
@@ -122,7 +122,7 @@ class ZenInputMainViewController: UITabBarController {
     }
     
     func updateSourceController(text: String) {
-        ZenInputController.shared.sourceTextField?.text = text
+        ZDSInputManager.shared.sourceTextField?.text = text
         dismissViewControllerAnimated(true, completion: nil)
     }
     

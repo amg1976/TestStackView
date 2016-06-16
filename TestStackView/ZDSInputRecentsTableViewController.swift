@@ -40,7 +40,7 @@ extension ZDSInputRecentsTableViewController: UITableViewDelegate {
         
         let cell = tableView.cellForRowAtIndexPath(indexPath)
         
-        if let parent = self.parentViewController as? ZenInputMainViewController,
+        if let parent = self.parentViewController as? ZDSInputMainViewController,
             text = cell?.textLabel?.text {
             parent.updateSourceController(text)
         }

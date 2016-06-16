@@ -13,7 +13,7 @@
 		72718E3D1D12B017003FD1E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72718E3C1D12B017003FD1E1 /* Assets.xcassets */; };
 		72718E401D12B017003FD1E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72718E3E1D12B017003FD1E1 /* LaunchScreen.storyboard */; };
 		72718E481D12BC0E003FD1E1 /* ZenInput.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72718E471D12BC0E003FD1E1 /* ZenInput.storyboard */; };
-		72718E4A1D12BC9B003FD1E1 /* ZenInputMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72718E491D12BC9B003FD1E1 /* ZenInputMainViewController.swift */; };
+		72718E4A1D12BC9B003FD1E1 /* ZDSInputMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72718E491D12BC9B003FD1E1 /* ZDSInputMainViewController.swift */; };
 		72718E4C1D12BE5D003FD1E1 /* ZDSInputRecentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72718E4B1D12BE5D003FD1E1 /* ZDSInputRecentsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 		72718E3F1D12B017003FD1E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72718E411D12B017003FD1E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72718E471D12BC0E003FD1E1 /* ZenInput.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ZenInput.storyboard; sourceTree = "<group>"; };
-		72718E491D12BC9B003FD1E1 /* ZenInputMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZenInputMainViewController.swift; sourceTree = "<group>"; };
+		72718E491D12BC9B003FD1E1 /* ZDSInputMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSInputMainViewController.swift; sourceTree = "<group>"; };
 		72718E4B1D12BE5D003FD1E1 /* ZDSInputRecentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSInputRecentsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +67,7 @@
 				72718E3E1D12B017003FD1E1 /* LaunchScreen.storyboard */,
 				72718E411D12B017003FD1E1 /* Info.plist */,
 				72718E471D12BC0E003FD1E1 /* ZenInput.storyboard */,
-				72718E491D12BC9B003FD1E1 /* ZenInputMainViewController.swift */,
+				72718E491D12BC9B003FD1E1 /* ZDSInputMainViewController.swift */,
 				72718E4B1D12BE5D003FD1E1 /* ZDSInputRecentsTableViewController.swift */,
 			);
 			path = TestStackView;
@@ -147,7 +147,7 @@
 			files = (
 				72718E381D12B017003FD1E1 /* ViewController.swift in Sources */,
 				72718E361D12B017003FD1E1 /* AppDelegate.swift in Sources */,
-				72718E4A1D12BC9B003FD1E1 /* ZenInputMainViewController.swift in Sources */,
+				72718E4A1D12BC9B003FD1E1 /* ZDSInputMainViewController.swift in Sources */,
 				72718E4C1D12BE5D003FD1E1 /* ZDSInputRecentsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
