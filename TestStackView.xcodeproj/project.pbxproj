@@ -15,6 +15,7 @@
 		72718E481D12BC0E003FD1E1 /* ZenInput.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72718E471D12BC0E003FD1E1 /* ZenInput.storyboard */; };
 		72718E4A1D12BC9B003FD1E1 /* ZDSInputMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72718E491D12BC9B003FD1E1 /* ZDSInputMainViewController.swift */; };
 		72718E4C1D12BE5D003FD1E1 /* ZDSInputRecentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72718E4B1D12BE5D003FD1E1 /* ZDSInputRecentsTableViewController.swift */; };
+		72718E4E1D12F28E003FD1E1 /* ZDSInputManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72718E4D1D12F28E003FD1E1 /* ZDSInputManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		72718E471D12BC0E003FD1E1 /* ZenInput.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ZenInput.storyboard; sourceTree = "<group>"; };
 		72718E491D12BC9B003FD1E1 /* ZDSInputMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSInputMainViewController.swift; sourceTree = "<group>"; };
 		72718E4B1D12BE5D003FD1E1 /* ZDSInputRecentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSInputRecentsTableViewController.swift; sourceTree = "<group>"; };
+		72718E4D1D12F28E003FD1E1 /* ZDSInputManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZDSInputManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				72718E471D12BC0E003FD1E1 /* ZenInput.storyboard */,
 				72718E491D12BC9B003FD1E1 /* ZDSInputMainViewController.swift */,
 				72718E4B1D12BE5D003FD1E1 /* ZDSInputRecentsTableViewController.swift */,
+				72718E4D1D12F28E003FD1E1 /* ZDSInputManager.swift */,
 			);
 			path = TestStackView;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				72718E381D12B017003FD1E1 /* ViewController.swift in Sources */,
 				72718E361D12B017003FD1E1 /* AppDelegate.swift in Sources */,
+				72718E4E1D12F28E003FD1E1 /* ZDSInputManager.swift in Sources */,
 				72718E4A1D12BC9B003FD1E1 /* ZDSInputMainViewController.swift in Sources */,
 				72718E4C1D12BE5D003FD1E1 /* ZDSInputRecentsTableViewController.swift in Sources */,
 			);

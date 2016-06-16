@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBAction func touchedClearButton(sender: UIButton) {
+        if let allFields = getAllTextFields() {
+            _ = allFields.map {
+                $0.text = nil
+                $0.resignFirstResponder()
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         ZDSInputManager.shared.setup(withSourceViewController: self)
